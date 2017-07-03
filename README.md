@@ -1,2 +1,2 @@
 # Nutrition-Calculator
-This program allows you to build 'meals' and see the cumulative nutritional value of the meal based on the items and quantity you have added. It uses an API with the USDA nutritional database.
+This program allows you to build 'meals' and see the cumulative nutritional value of the meal based on the items and quantity you have added. The nscrape.py file uses an API with the USDA nutritional database to pull nutrition information into a local SQLite database. The nbuildmeal.py file allows you to add items into your meal, and save it to the database. The program uses the terminal as the user interface and all the coding is in Python.
